@@ -20,6 +20,22 @@ function Home() {
       })}
       <Section
         key=""
+        title="Solar Panels"
+        description="Lowest Cost Solar Panels in America"
+        bgImg="solar-panel.jpg"
+        leftButton="order now"
+        rightButton="learn more"
+      />
+      <Section
+        key=""
+        title="Solar roof"
+        description="Lowest Cost Solar Panels in America"
+        bgImg="solar-roof.jpg"
+        leftButton="order now"
+        rightButton="learn more"
+      />
+      <Section
+        key=""
         title="Accessories"
         bgImg="accessories.jpg"
         leftButton="Shop now"
@@ -32,4 +48,5 @@ export default Home;
 
 const Container = styled.div`
   height: 100vh;
+  z-index: 9;
 `;
