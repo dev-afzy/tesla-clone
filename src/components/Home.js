@@ -19,7 +19,7 @@ function Home() {
         );
       })}
       <Section
-        key=""
+        key="Panels"
         title="Solar Panels"
         description="Lowest Cost Solar Panels in America"
         bgImg="solar-panel.jpg"
@@ -27,7 +27,7 @@ function Home() {
         rightButton="learn more"
       />
       <Section
-        key=""
+        key="Solar-roof"
         title="Solar roof"
         description="Lowest Cost Solar Panels in America"
         bgImg="solar-roof.jpg"
@@ -35,7 +35,7 @@ function Home() {
         rightButton="learn more"
       />
       <Section
-        key=""
+        key="Accessories"
         title="Accessories"
         bgImg="accessories.jpg"
         leftButton="Shop now"
